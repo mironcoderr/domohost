@@ -1,0 +1,28 @@
+
+
+
+/*=====================================
+        0-767PX NAVBAR RESPONSIVE
+======================================*/
+@media (max-width: 991px) {
+    
+    .dropdown-menu {
+        visibility: visible;
+        opacity: 1;
+        display: none;
+        width: 100%;
+    }
+
+}
+
+/*=====================================
+        576-991PX NAVBAR RESPONSIVE
+======================================*/
+@media (min-width: 576px) and (max-width: 991px) {
+    
+    .dropdown-menu {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+}

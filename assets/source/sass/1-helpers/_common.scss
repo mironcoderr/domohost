@@ -1,0 +1,121 @@
+
+
+
+/*=====================================
+            ALL COMMON STYLE
+======================================*/
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+span,
+label {
+    margin-bottom: 0px;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #888;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Heebo', sans-serif;
+    line-height: 28px;
+
+    color: $body__color;
+    font-size: $body__size;
+    font-weight: $regular__weight;
+    font-family: $primary__family;
+    line-height: 26px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #3d5272;
+    font-weight: 700;
+    text-transform: capitalize;
+
+    color: $heading__color;
+    font-weight: $bold__weight;
+}
+
+h1 {
+    font-size: 60px;
+
+    font-size: $h1__size;
+    line-height: 68px;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 45px;
+    text-transform: capitalize;
+
+    font-size: $h2__size;
+    line-height: 45px;
+}
+
+h3 {
+    font-size: 24px;
+
+    font-size: $h3__size;
+    line-height: 32px;
+}
+
+h4 {
+    font-size: 20px;
+
+    font-size: $h4__size;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 500;
+
+    font-size: $h5__size;
+    font-weight: $medium__weight;
+    line-height: 28px;
+}
+
+input,
+textarea {
+    &::placeholder {
+        color: #999999;
+
+        color: $placeholder__color;
+        font-size: 15px;
+        letter-spacing: 0.3px;
+        text-transform: capitalize;
+    }
+}

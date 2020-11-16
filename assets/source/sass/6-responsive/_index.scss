@@ -1,0 +1,1271 @@
+
+
+
+/*=====================================
+        0-991PX INDEX RESPONSIVE
+======================================*/
+@media (max-width: 991px) {
+    .navbar-collapse {
+        text-align: center;
+        padding: 30px 0px;
+        background: $wh__color;
+    }
+
+    .navbar-toggler:focus {
+        outline: none;
+    }
+}
+
+/*=====================================
+        0-575PX INDEX RESPONSIVE
+======================================*/
+@media (max-width: 575px) {
+
+    .dropdown-menu {
+        display: none;
+        width: 100%;
+    }
+
+    .nav-item {
+        margin: 5px 0px
+    }
+
+    .nav-link {
+        display: inline-block;
+    }
+
+    .navbar-icon {
+        margin-left: 0px;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .navbar-btn {
+        display: inline-block;
+    }
+
+    // BANNER PART
+    .banner-part {
+        padding: 80px 0px 60px;
+    }
+
+    .banner-shape-1,
+    .banner-shape-2,
+    .banner-img {
+        display: none;
+    }
+
+    .banner-content {
+        text-align: center;
+
+        h1 {
+            font-size: 35px;
+            line-height: 45px;
+        }
+    }
+
+    .banner-btn {
+        .btn {
+            width: 180px;
+            display: block;
+            margin: 0px auto;
+
+            &:nth-child(1) {
+                margin: 0 auto 15px;
+            }
+        }
+    }
+
+    // DOMAIN PART
+    .domain-bg {
+        padding: 60px 0px 50px;
+    }
+    
+    .section-heading {
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .domain-form {
+        display: block;
+    }
+
+    .domain-input {
+        padding: 25px 15px;
+        border-radius: 20px;
+        flex-direction: column;
+
+        i {
+            display: none;
+        }
+
+        input {
+            width: 100%;
+            padding: 0px 15px;
+            border-bottom: 1px solid #e8e8e8;
+
+            &::placeholder {
+                text-align: center;
+            }
+        }
+
+        .domain-select {
+            .custom-select {
+                border-left: none;
+            }
+        }
+    }
+
+    .domain-suggest {
+        ul {
+            flex-wrap: wrap;
+
+            li {
+                margin: 5px 15px;
+
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    // PRICE PART
+    .price-part {
+        padding: 60px 0px 60px;
+    }
+
+    .duel-btn {
+        @include flex__center;
+        margin-bottom: 15px;
+
+        li {
+            .btn {
+                padding: 10px 20px;
+            }
+
+            span {
+                margin: 0px 3px;
+            }
+        }
+    }
+
+    .price-active {
+        transform: translateY(0px);
+    }
+
+    // ABOUT PART
+    .about-part {
+        padding: 60px 0px;
+    }
+
+    .about-shape {
+        display: none;
+    }
+
+    .about-img {
+        margin-bottom: 25px;
+
+        img {
+            width: 125px;
+        }
+
+        &::after {
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    .about-content {
+        text-align: center;
+
+        h3 {
+            font-size: 45px;
+            line-height: 55px;
+        }
+    }
+
+    .social-icon {
+        text-align: center;
+    }
+
+    // SERVICE CARD
+    .service-part {
+        padding: 60px 0px 20px;
+    }
+
+    .service-card {
+        padding: 50px 45px;
+    }
+
+    // SEO PART
+    .seo-overlay {
+        padding: 60px 0px 70px;
+    }
+
+    .seo-content {
+        display: block;
+    }
+
+    .seo-input {
+        border-radius: 20px;
+        padding: 25px 15px;
+        flex-direction: column;
+
+        input {
+            width: 100%;
+            border-right: none;
+            border-bottom: 1px solid #e8e8e8;
+            margin-bottom: 15px;
+        }
+    }
+
+    // COMPANY PART
+    .company-part {
+        padding: 50px 0px;
+    }
+
+    .company-img {
+        a {
+            margin: 0px 15px;
+
+            img {
+                width: 125px;
+            }
+        }
+    }
+
+    // PORTFOLIO PART
+    .port-part {
+        padding: 60px 0px 60px;
+    }
+
+    .dandik,
+    .bamdik {
+        display: none !important;
+    }
+
+    // TESTIMONIAL PART
+    .testi-part {
+        padding: 60px 0px 80px;
+
+        .section-heading {
+            text-align: center !important;
+        }
+    }
+
+    .testi-btn {
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    .testi-quote {
+        width: 100%;
+        padding: 30px 15px;
+    }
+
+    .testi-author {
+        padding: 25px 0px;
+
+        a {
+            margin-right: 18px;
+        }
+    }
+
+    .author-details {
+        li {
+            h4 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    // TEAM PART
+    .team-part {
+        padding: 60px 0px 50px;
+    }
+
+    // BLOG PART
+    .blog-part {
+        padding: 60px 0px 60px;
+    }
+
+    .blog-text {
+        h4 {
+            font-size: 18px;
+        }
+    }
+
+    // CONTACT PART
+    .contact-part {
+        padding: 60px 0px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+
+        i {
+            margin: 0px 0px 25px;
+        }
+    }
+
+    .contact-text {
+        text-align: center;
+    }
+
+    .contact-content {
+        text-align: center;
+        margin-bottom: 50px;
+
+        img {
+            width: 80%;
+        }
+    }
+
+    .contact-form {
+        text-align: center;
+    }
+
+    .contact-input {
+        flex-direction: column;
+        margin: 0px;
+
+        input {
+            margin: 0px 0px 20px;
+        }
+    }
+
+    // NEWS PART
+    .news-part {
+        padding: 60px 0px;
+    }
+
+    .news-content {
+        text-align: center;
+    }
+
+    .news-form {
+        flex-direction: column;
+        padding: 25px 15px;
+        border-radius: 20px;
+        margin: 30px 0px 0px;
+
+        input {
+            border-bottom: 1px solid #e8e8e8;
+            margin-bottom: 25px;
+        }
+    }
+
+    // FOOTER PART
+    .footer-about {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .social-icon  {
+        li {
+            margin: 0px 5px;
+        }
+    }
+
+    .footer-widget {
+        margin: 0px 0px 45px 15px;
+    }
+
+    .footer-blog {
+        margin-left: 15px;
+    }
+
+    .footer-card {
+        flex-wrap: wrap;
+        padding: 30px;
+
+        a {
+            margin: 10px 5px;
+        }
+    }
+
+    // FOOTER BOTTOM
+    .footer-bottom {
+        ul {
+            flex-direction: column;
+
+            li {
+                margin: 5px 0px;
+
+                &::after {
+                    display: none;
+                }
+            }
+        }
+    }
+
+}
+
+/*=====================================
+        400-575PX INDEX RESPONSIVE
+======================================*/
+@media (min-width: 400px) and (max-width: 575px) {
+    .container {
+        width: 400px;
+        margin: 0 auto;
+    }
+}
+
+/*=====================================
+        576-767PX INDEX RESPONSIVE
+======================================*/
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .dropdown-menu {
+        display: none;
+        width: 100%;
+    }
+
+    .nav-item {
+        margin: 5px 0px
+    }
+
+    .nav-link {
+        display: inline-block;
+    }
+
+    .navbar-icon {
+        margin-left: 0px;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .navbar-btn {
+        display: inline-block;
+    }
+
+    // BANNER PART
+    .banner-part {
+        padding: 80px 0px 60px;
+    }
+
+    .banner-shape-1,
+    .banner-shape-2,
+    .banner-img {
+        display: none;
+    }
+
+    .banner-content {
+        text-align: center;
+
+        h1 {
+            font-size: 50px;
+            line-height: 60px;
+        }
+    }
+
+    // DOMAIN PART
+    .domain-bg {
+        padding: 60px 0px 50px;
+    }
+    
+    .section-heading {
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .domain-form {
+        display: block;
+    }
+
+    .domain-input {
+        padding: 25px 15px;
+        border-radius: 20px;
+        flex-direction: column;
+
+        i {
+            display: none;
+        }
+
+        input {
+            width: 100%;
+            padding: 0px 15px;
+            border-bottom: 1px solid #e8e8e8;
+
+            &::placeholder {
+                text-align: center;
+            }
+        }
+
+        .domain-select {
+            .custom-select {
+                border-left: none;
+            }
+        }
+    }
+
+    .domain-suggest {
+        ul {
+            flex-wrap: wrap;
+
+            li {
+                margin: 5px 15px;
+
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    // PRICE PART
+    .price-part {
+        padding: 60px 0px 60px;
+    }
+
+    .price-card {
+        width: 400px;
+        margin: 0 auto 30px;
+    }
+
+    .duel-btn {
+        @include flex__center;
+        margin-bottom: 15px;
+
+        li {
+            .btn {
+                padding: 10px 20px;
+            }
+
+            span {
+                margin: 0px 3px;
+            }
+        }
+    }
+
+    .price-active {
+        transform: translateY(0px);
+    }
+
+    // ABOUT PART
+    .about-part {
+        padding: 60px 0px;
+    }
+
+    .about-shape {
+        display: none;
+    }
+
+    .about-img {
+        margin-bottom: 25px;
+
+        img {
+            width: 230px;
+        }
+
+        &::after {
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    .about-content {
+        text-align: center;
+
+        h3 {
+            font-size: 65px;
+            line-height: 75px;
+        }
+    }
+
+    .social-icon {
+        text-align: center;
+    }
+
+    // SERVICE CARD
+    .service-part {
+        padding: 60px 0px 20px;
+    }
+
+    .service-card {
+        width: 400px;
+        margin: 0 auto 50px;
+        padding: 50px 45px;
+    }
+
+    // SEO PART
+    .seo-overlay {
+        padding: 60px 0px 70px;
+    }
+
+    .seo-content {
+        display: block;
+    }
+
+    .seo-input {
+        border-radius: 20px;
+        padding: 25px 15px;
+        flex-direction: column;
+
+        input {
+            width: 100%;
+            border-right: none;
+            border-bottom: 1px solid #e8e8e8;
+            margin-bottom: 15px;
+        }
+    }
+
+    // COMPANY PART
+    .company-part {
+        padding: 50px 0px;
+    }
+
+    .company-img {
+        a {
+            margin: 0px 15px;
+
+            img {
+                width: 125px;
+            }
+        }
+    }
+
+    // PORTFOLIO PART
+    .port-part {
+        padding: 60px 0px 60px;
+
+        .container {
+            max-width: 430px;
+        }
+    }
+
+    // .dandik,
+    // .bamdik {
+    //     display: none !important;
+    // }
+
+    // TESTIMONIAL PART
+    .testi-part {
+        padding: 60px 0px 80px;
+
+        .section-heading {
+            text-align: center !important;
+        }
+    }
+
+    .testi-btn {
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    .testi-quote {
+        width: 100%;
+        padding: 30px 15px;
+    }
+
+    .testi-author {
+        padding: 25px 0px;
+
+        a {
+            margin-right: 18px;
+        }
+    }
+
+    .author-details {
+        li {
+            h4 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    // TEAM PART
+    .team-part {
+        padding: 60px 0px 50px;
+
+        .container {
+            max-width: 400px;
+        }
+    }
+
+    .team-social {
+        width: 160px;
+    }
+
+    // BLOG PART
+    .blog-part {
+        padding: 60px 0px 60px;
+
+        .container {
+            max-width: 430px;
+        }
+    }
+
+    .blog-text {
+        h4 {
+            font-size: 18px;
+        }
+    }
+
+    // CONTACT PART
+    .contact-part {
+        padding: 60px 0px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+
+        i {
+            margin: 0px 0px 25px;
+        }
+    }
+
+    .contact-text {
+        text-align: center;
+    }
+
+    .contact-content {
+        text-align: center;
+        margin-bottom: 50px;
+
+        img {
+            width: 80%;
+        }
+    }
+
+    .contact-form {
+        text-align: center;
+    }
+
+    .contact-input {
+        flex-direction: column;
+        margin: 0px;
+
+        input {
+            margin: 0px 0px 20px;
+        }
+    }
+
+    // NEWS PART
+    .news-part {
+        padding: 60px 0px;
+    }
+
+    .news-content {
+        text-align: center;
+    }
+
+    .news-form {
+        flex-direction: column;
+        padding: 25px 15px;
+        border-radius: 20px;
+        margin: 30px 0px 0px;
+
+        input {
+            border-bottom: 1px solid #e8e8e8;
+            margin-bottom: 25px;
+        }
+    }
+
+    // FOOTER PART
+    .footer-about {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .social-icon  {
+        li {
+            margin: 0px 5px;
+        }
+    }
+
+    .footer-widget {
+        margin: 0px 0px 45px 15px;
+    }
+
+    .footer-blog {
+        margin-left: 15px;
+    }
+
+    .footer-card {
+        flex-wrap: wrap;
+        padding: 30px;
+
+        a {
+            margin: 10px 5px;
+        }
+    }
+
+    // FOOTER BOTTOM
+    .footer-bottom {
+        ul {
+            flex-direction: column;
+
+            li {
+                margin: 5px 0px;
+
+                &::after {
+                    display: none;
+                }
+            }
+        }
+    }
+
+}
+
+/*=====================================
+        768-991PX INDEX RESPONSIVE
+======================================*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .header-widget {
+        @include flex__center;
+    }
+
+    .dropdown-menu {
+        display: none;
+        width: 100%;
+    }
+
+    .nav-item {
+        margin: 5px 0px
+    }
+
+    .nav-link {
+        display: inline-block;
+    }
+
+    .navbar-icon {
+        margin-left: 0px;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .navbar-btn {
+        display: inline-block;
+    }
+
+    // BANNER PART
+    .banner-part {
+        padding: 80px 0px 60px;
+    }
+
+    .banner-shape-1,
+    .banner-shape-2 {
+        display: none;
+    }
+
+    .banner-img {
+        img {
+            margin-top: 80px;
+        }
+    }
+
+    .banner-content {
+        h1 {
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        .btn {
+            padding: 13px 22px;
+        }
+    }
+
+    // DOMAIN PART
+    .domain-bg {
+        padding: 60px 0px 50px;
+    }
+    
+    .section-heading {
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    // PRICE PART
+    .price-part {
+        padding: 60px 0px 60px;
+    }
+
+    .duel-btn {
+        @include flex__center;
+        margin-bottom: 15px;
+
+        li {
+            .btn {
+                padding: 10px 20px;
+            }
+
+            span {
+                margin: 0px 3px;
+            }
+        }
+    }
+
+    .price-active {
+        transform: translateY(0px);
+    }
+
+    .price-badge {
+        display: none;
+    }
+
+    // ABOUT PART
+    .about-part {
+        padding: 60px 0px;
+    }
+
+    .about-shape {
+        display: none;
+    }
+
+    .about-img {
+        margin-bottom: 25px;
+
+        img {
+            width: 145px;
+        }
+
+        &::after {
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    .about-content {
+
+        h3 {
+            font-size: 50px;
+            line-height: 60px;
+        }
+    }
+
+    // SERVICE CARD
+    .service-part {
+        padding: 60px 0px 20px;
+    }
+
+    .service-card {
+        padding: 50px 45px;
+    }
+
+    // SEO PART
+    .seo-overlay {
+        padding: 60px 0px 70px;
+    }
+
+    .seo-content {
+        display: block;
+    }
+
+    .seo-input {
+        border-radius: 20px;
+        padding: 25px 15px;
+        flex-direction: column;
+
+        input {
+            width: 100%;
+            border-right: none;
+            border-bottom: 1px solid #e8e8e8;
+            margin-bottom: 15px;
+        }
+    }
+
+    // COMPANY PART
+    .company-part {
+        padding: 50px 0px;
+    }
+
+    .company-img {
+        a {
+            margin: 0px 15px;
+
+            img {
+                width: 125px;
+            }
+        }
+    }
+
+    // PORTFOLIO PART
+    .port-part {
+        padding: 60px 0px 60px;
+    }
+
+    .dandik {
+        right: -15px;
+    }
+
+    .bamdik {
+        left: -15px;
+    }
+
+    // TESTIMONIAL PART
+    .testi-part {
+        padding: 60px 0px 80px;
+
+        .section-heading {
+            text-align: center !important;
+        }
+    }
+
+    .testi-btn {
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    .testi-quote {
+        width: 100%;
+        padding: 30px 15px;
+    }
+
+    .testi-author {
+        padding: 25px 0px;
+
+        a {
+            margin-right: 18px;
+        }
+    }
+
+    .author-details {
+        li {
+            h4 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    // TEAM PART
+    .team-part {
+        padding: 60px 0px 50px;
+    }
+
+    .team-social {
+        width: 160px;
+    }
+
+    // BLOG PART
+    .blog-part {
+        padding: 60px 0px 60px;
+    }
+
+    .blog-text {
+        h4 {
+            font-size: 18px;
+        }
+    }
+
+    // CONTACT PART
+    .contact-part {
+        padding: 60px 0px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+
+        i {
+            margin: 0px 0px 25px;
+        }
+    }
+
+    .contact-text {
+        text-align: center;
+    }
+
+    .contact-content {
+        margin-bottom: 50px;
+
+        img {
+            width: 80%;
+        }
+    }
+
+    .contact-form {
+        text-align: center;
+    }
+
+    .contact-input {
+        flex-direction: column;
+        margin: 0px;
+
+        input {
+            margin: 0px 0px 20px;
+        }
+    }
+
+    // NEWS PART
+    .news-part {
+        padding: 60px 0px;
+    }
+
+    .news-form {
+        flex-direction: column;
+        padding: 25px 15px;
+        border-radius: 20px;
+        margin: 30px 0px 0px;
+
+        input {
+            border-bottom: 1px solid #e8e8e8;
+            margin-bottom: 25px;
+        }
+    }
+
+    // FOOTER PART
+    .footer-about {
+        text-align: center;
+        margin-bottom: 50px;
+
+        p {
+            width: 500px;
+            margin: 0 auto 38px;
+        }
+    }
+
+    .social-icon  {
+        li {
+            margin: 0px 5px;
+        }
+    }
+
+    .footer-widget {
+        margin: 0px 0px 45px 15px;
+    }
+
+    .footer-blog {
+        margin-left: 15px;
+    }
+
+    .footer-card {
+        flex-wrap: wrap;
+        padding: 30px;
+
+        a {
+            margin: 10px 5px;
+        }
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    // NAVBAR PART
+    .navbar-brand {
+        img {
+            width: 150px;
+        }
+    }
+
+    .navbar-btn {
+        display: none;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+
+    // BANNER PART
+    .banner-part {
+        padding: 180px 0px 100px;
+    }
+
+    .banner-content {
+        h1 {
+            font-size: 50px;
+            line-height: 60px;
+        }
+    }
+
+    // ABOUT PART
+    .about-img {
+        img {
+            width: 205px;
+        }
+    }
+
+    .about-content {
+        h3 {
+            font-size: 65px;
+            line-height: 75px;
+        }
+    }
+
+    // SERVICE PART
+    .service-card {
+        padding: 50px 45px;
+    }
+
+    // PORTFOLIO PART
+    .dandik {
+        right: -15px;
+    }
+
+    .bamdik {
+        left: -15px;
+    }
+
+     // TESTIMONIAL PART
+     .testi-part {
+        padding: 60px 0px 80px;
+    }
+
+    .testi-quote {
+        width: 100%;
+        padding: 30px 15px;
+    }
+
+    .testi-author {
+        padding: 25px 0px;
+
+        a {
+            margin-right: 18px;
+        }
+    }
+
+    .author-details {
+        li {
+            h4 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    // NEWSLETTER PART
+    .news-form {
+        .btn {
+            width: 260px;
+        }
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+
+    // NAVBAR PART
+    .navbar-brand {
+        img {
+            width: 150px;
+        }
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+
+    .dandik {
+        right: -15px;
+    }
+
+    .bamdik {
+        left: -15px;
+    }
+}

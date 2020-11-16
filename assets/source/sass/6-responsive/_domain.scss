@@ -1,0 +1,45 @@
+
+
+
+/*=====================================
+        0-1199PX DOMAIN RESPONSIVE
+======================================*/
+@media (max-width: 1199px) {
+    .domain-heading {
+        p {
+            width: 100%;
+        }
+    }
+
+    .domain-form {
+        margin-top: 20px;
+    }
+
+    .domain-slider {
+        li {
+            margin: 0px 40px;
+
+            a {
+                font-size: 38px;
+            }
+
+            span {
+                font-size: 22px;
+            }
+        }
+    }
+
+    .dandik {
+        right: -15px;
+    }
+
+    .bamdik {
+        left: -15px;
+    }
+
+    .counter-card {
+        margin-bottom: 30px;
+    }
+
+
+}

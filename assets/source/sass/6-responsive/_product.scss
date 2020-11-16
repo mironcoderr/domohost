@@ -1,0 +1,56 @@
+
+
+/*=====================================
+        0-575PX PRODUCT RESPONSIVE
+======================================*/
+@media (max-width: 767px) {
+    .product-form {
+        display: block;
+    }
+
+    .product-input {
+        padding: 25px 15px;
+        border-radius: 20px;
+        flex-direction: column;
+
+        i {
+            display: none;
+        }
+
+        input {
+            width: 100%;
+            padding: 0px 15px;
+            border-bottom: 1px solid #e8e8e8;
+
+            &::placeholder {
+                text-align: center;
+            }
+        }
+
+        .product-select {
+            .custom-select {
+                border-left: none;
+            }
+        }
+    }
+
+    .inner-heading {
+        width: 100%;
+    }
+
+    .product-suggest {
+        display: none;
+    }
+
+}
+
+/*=====================================
+        575-767PX PRODUCT RESPONSIVE
+======================================*/
+@media (min-width: 576px) and (max-width: 767px) {
+    .product-part {
+        .container {
+            max-width: 400px;
+        }
+    }
+}

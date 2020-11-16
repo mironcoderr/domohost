@@ -1,0 +1,37 @@
+
+
+
+/*=====================================
+        0-575PX PRODUCT RESPONSIVE
+======================================*/
+@media (max-width: 767px) {
+    #blog-list-part {
+        padding: 60px 0px 0px;
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+    }
+}
+
+/*=====================================
+        0-991PX PRODUCT RESPONSIVE
+======================================*/
+@media (max-width: 991px) {
+    .pagination {
+        margin-bottom: 50px;
+    }
+}
+
+/*=====================================
+        992-1199PX PRODUCT RESPONSIVE
+======================================*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .blog-text {
+        h4 {
+            font-size: 18px;
+        }
+    }
+}
+

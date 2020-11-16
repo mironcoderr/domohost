@@ -1,0 +1,75 @@
+
+
+
+//========================================
+//          1 - HELPERS FOLDER
+//========================================
+@import "1-helpers/_font.scss";
+@import "1-helpers/_variable.scss";
+@import "1-helpers/_mixin.scss";
+@import "1-helpers/_common.scss";
+
+//========================================
+//          2 - COMPONENTS FOLDER
+//========================================
+@import "2-components/_button.scss";
+@import "2-components/_form.scss";
+@import "2-components/_pagination.scss";
+@import "2-components/_dropdown-menu.scss";
+@import "2-components/_toggle-switch.scss";
+@import "2-components/_slider-arrow.scss";
+@import "2-components/_slider-dots.scss";
+@import "2-components/_social-icon.scss";
+
+//=======================================
+//          3 - ELEMENTS FOLDER
+//=======================================
+@import "3-elements/_section-heading.scss";
+@import "3-elements/_price-card.scss";
+@import "3-elements/_service-card.scss";
+@import "3-elements/_portfolio-card.scss";
+@import "3-elements/_testimonial-card.scss";
+@import "3-elements/_team-card.scss";
+@import "3-elements/_blog-card.scss";
+@import "3-elements/_product-card.scss";
+@import "3-elements/_inner-banner.scss";
+@import "3-elements/_feature-card.scss";
+@import "3-elements/_counter-card.scss";
+
+//=======================================
+//          4 - LAYOUTS FOLDER
+//=======================================
+@import "4-layouts/_header.scss";
+@import "4-layouts/_navbar.scss";
+@import "4-layouts/_contact.scss";
+@import "4-layouts/_newsletter.scss";
+@import "4-layouts/_footer.scss";
+@import "4-layouts/_footer-bottom.scss";
+@import "4-layouts/_preloader.scss";
+
+//=======================================
+//          5 - PAGES FOLDER
+//=======================================
+@import "5-pages/_index.scss";
+@import "5-pages/_home-1.scss";
+@import "5-pages/_home-2.scss";
+@import "5-pages/_product.scss";
+@import "5-pages/_domain.scss";
+@import "5-pages/_hosting.scss";
+@import "5-pages/_blog-list.scss";
+@import "5-pages/_blog-details.scss";
+
+//=======================================
+//          6 - RESPONSIVE FOLDER
+//=======================================
+@import "6-responsive/_header.scss";
+@import "6-responsive/_navbar.scss";
+@import "6-responsive/_dropdown-menu.scss";
+@import "6-responsive/_index.scss";
+@import "6-responsive/_home-1.scss";
+@import "6-responsive/_home-2.scss";
+@import "6-responsive/_product.scss";
+@import "6-responsive/_domain.scss";
+@import "6-responsive/_hosting.scss";
+@import "6-responsive/_blog-list.scss";
+@import "6-responsive/_blog-details.scss";

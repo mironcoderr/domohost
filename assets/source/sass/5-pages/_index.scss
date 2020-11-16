@@ -1,0 +1,301 @@
+
+
+/*=====================================
+            BANNER PART STYLE
+======================================*/
+.banner-part {
+    background: $banner__bg;
+    padding: 200px 0px 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-shape-1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 450px;
+    height: 900px;
+}
+
+.banner-shape-2 {
+    position: absolute;
+    top: 165px;
+    right: -100px;
+    width: auto;
+    height: 100%;
+}
+
+.banner-content {
+    margin-top: 43px;
+
+    h1 {
+        margin-bottom: 25px;
+    }
+
+    p {
+        margin-bottom: 45px;
+    }
+}
+
+.banner-img {
+    img {
+        width: 100%;
+        height: auto;
+        animation: miron 8s linear infinite;
+
+        @keyframes miron {
+            0%{
+                transform: translateY(-50px);
+            }
+            50%{
+                transform: translateY(0px);
+            }
+            100%{
+                transform: translateY(-50px);
+            }
+        }
+    }
+}
+
+.banner-btn {
+    .btn {
+        &:nth-child(1) {
+            margin-right: 12px;
+        }
+    }
+}
+
+/*=====================================
+            DOMAIN PART STYLE
+======================================*/
+.domain-part {
+    background: $domain__bg;
+}
+
+.domain-bg {
+    background-image: url(../../../assets/images/domain-bg.png);
+    @include background__property;
+    padding: 90px 0px 95px;
+}
+
+.domain-suggest {
+    ul {
+        @include flex__center;
+
+        li {
+            margin: 0px 25px;
+    
+            p {
+                font-size: 18px;
+                font-weight: 500;
+                color: $heading__color;
+                text-transform: lowercase;
+                letter-spacing: 0px;
+    
+                span {
+                    color: #555;
+                }
+            }
+        }
+    }
+}
+
+/*=====================================
+            PRICE PART STYLE
+======================================*/
+.price-part {
+    background: $wh__color;
+    padding: 90px 0px 100px;
+}
+
+.price-heading {
+    margin-bottom: 65px;
+}
+
+.price-btn {
+    text-align: center;
+}
+
+/*=====================================
+            ABOUT PART STYLE
+======================================*/
+.about-part {
+    background: #f9f9f9;
+    padding: 90px 0px 90px;
+    position: relative;
+}
+
+.about-shape {
+    background: url(../../../assets/images/about-shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    height: 100%;
+}
+
+.about-img {
+    @include flex__center;
+    flex-wrap: wrap;
+    position: relative;
+
+    &::after {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background: $wh__color;
+        position: absolute;
+        content: "";
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    img {
+        width: 230px;
+        height: auto;
+        border-radius: 5px;
+        margin: 10px;
+    }
+}
+
+.about-content {
+    h3 {
+        font-size: 80px;
+        color: #cccccc;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        line-height: 80px;
+    }
+
+    h4 {
+        margin-bottom: 20px;
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    p {
+        margin-bottom: 25px;
+    }
+}
+
+/*=====================================
+            SERVICE PART STYLE
+======================================*/
+.service-part {
+    background: $wh__color;
+    padding: 90px 0px 50px;
+}
+
+/*=====================================
+            SEO PART STYLE
+======================================*/
+.seo-part {
+    background: $primary__gradient;
+}
+
+.seo-overlay {
+    background-image: url(../../../assets/images/seo-bg.png);
+    padding: 92px 0px 100px;
+}
+
+/*=====================================
+            COMPANY PART STYLE
+======================================*/
+.company-part {
+    background: #f8ecff;
+    padding: 100px 0px;
+}
+
+.company-img {
+    a {
+        margin: 0px 50px;
+    }
+    
+    ul {
+        li {
+            button {
+                display: none;
+            }
+        }
+    }
+}
+
+/*=====================================
+            PORTFOLIO PART STYLE
+======================================*/
+.port-part {
+    background: $wh__color;
+    padding: 92px 0px 100px;
+}
+
+.port-parent {
+    ul {
+        li {
+            button {
+                display: none;
+            }
+        }
+    }
+
+    .dandik,
+    .bamdik {
+        top: 35%;
+    }
+}
+
+.port-btn {
+    text-align: center;
+}
+
+/*=====================================
+         TESTIMONIAL PART STYLE
+======================================*/
+.testi-part {
+    background: #fef8f8;
+    padding: 92px 0px 130px;
+}
+
+.testi-btn {
+    text-align: right;
+    margin-top: 18px;
+}
+
+/*=====================================
+            TEAM PART STYLE
+======================================*/
+.team-part {
+    background: $wh__color;
+    padding: 90px 0px 95px;
+}
+
+.team-slider {
+    ul {
+        li {
+            button {
+                display: none;
+            }
+        }
+    }
+
+    .dandik,
+    .bamdik {
+        top: 35%;
+    }
+}
+
+/*=====================================
+            BLOG PART STYLE
+======================================*/
+.blog-part {
+    background: #f4fff1;
+    padding: 95px 0px 100px;
+}
+
+.blog-more {
+    text-align: center;
+    margin-top: 20px;
+}

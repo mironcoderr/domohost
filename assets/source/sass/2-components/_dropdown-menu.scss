@@ -1,0 +1,51 @@
+
+
+/*=====================================
+            DROPDOWN MENU STYLE
+======================================*/
+.dropdown {
+    &:hover {
+        .dropdown-menu {
+            visibility: visible;
+            opacity: 1;
+            top: 60px;
+        }
+    }
+}
+
+.dropdown-menu {
+    border: none;
+    padding: 0px;
+    width: 240px;
+    border-top: 2px solid $brand__color;
+    box-shadow: $secondary__box__shadow;
+    overflow: hidden;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    @include cursor__transition;
+}
+
+.dropdown-item {
+    color: #777;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 13px 25px;
+    text-transform: capitalize;
+    border-bottom: 1px solid #eee;
+    
+    &:last-child {
+        border-bottom: none;
+    }
+
+    &:hover {
+        color: $wh__color;
+        background: $primary__gradient;
+    }
+}
+
+.dropdown-toggle {
+    &::after {
+        display: none;
+    }
+}

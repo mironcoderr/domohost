@@ -1,0 +1,78 @@
+
+
+/*=====================================
+            TEAM CARD STYLE
+======================================*/
+.team-card {
+    margin: 0px 15px;
+
+    &:hover {
+        .team-overlay {
+            height: 100%;
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+}
+
+.team-img {
+    position: relative;
+    margin-bottom: 35px;
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    ul {
+        li {
+            a {
+                i {
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+.team-overlay {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 0%;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    visibility: hidden;
+    opacity: 0;
+    @include cursor__transition;
+}    
+
+.team-social {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 160px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.team-contact {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 100px;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+.team-meta {
+    text-align: center;
+    p {
+        font-size: 14px;
+    }
+}    

@@ -1,0 +1,145 @@
+
+
+/*=====================================
+            FOOTER PART STYLE
+======================================*/
+.footer-part {
+    background: #050629;
+    padding: 100px 0px 50px;
+}
+
+.footer-about {
+    p {
+        color: #ddd;
+        text-transform: capitalize;
+        margin-bottom: 38px;
+    }
+
+    ul {
+        li {
+            a{
+                i {
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+}
+
+.footer-logo {
+    margin-bottom: 25px;
+
+    img {
+        width: 200px;
+        height: auto;
+    }
+}
+
+.footer-widget {
+    h3 {
+        color: $wh__color;
+        margin-bottom: 30px;
+        margin-left: 15px;
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: "";
+            top: 50%;
+            left: -15px;
+            transform: translateY(-50%);
+            width: 3px;
+            height: 25px;
+            background: $primary__gradient;
+        }
+    }
+
+    ul {
+        li {
+            margin: 20px 0px;
+
+            a {
+                color: #ddd;
+                text-transform: capitalize;
+
+                &:hover {
+                    color: $brand__color;
+                }
+
+                i {
+                    color: $brand__color;
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}
+
+.footer-blog {
+    h3 {
+        color: $wh__color;
+        margin-left: 15px;
+        margin-bottom: 30px;
+        position: relative;
+        
+        &::after {
+            position: absolute;
+            content: "";
+            top: 50%;
+            left: -15px;
+            transform: translateY(-50%);
+            width: 3px;
+            height: 25px;
+            background: $primary__gradient;
+        }
+    }
+
+    ul {
+        li {
+            @include flex__center;
+            margin-bottom: 30px;
+
+            &:last-child {
+                margin-bottom: 0px;
+            }
+
+            img {
+                width: 90px;
+                height: auto;
+                border-radius: 5px;
+                margin-right: 15px;
+            }
+        }
+    }
+}
+
+.footer-text {
+    h5 {
+        a {
+            color: #ddd;
+            text-transform: capitalize;
+
+            &:hover {
+                color: $brand__color;
+            }
+        }
+    }
+
+    p {
+        font-size: 14px;
+        color: #ddd;
+        text-transform: capitalize;
+        margin-top: 5px;
+    }
+}
+
+.footer-card {
+    @include flex__center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    border-radius: 8px;
+    background: $primary__gradient;
+    margin-top: 40px;
+}

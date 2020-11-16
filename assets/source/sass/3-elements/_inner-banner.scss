@@ -1,0 +1,48 @@
+
+
+
+/*=====================================
+            INNER BANNER STYLE
+======================================*/
+.inner-banner{
+    background: url(../../../assets/images/inner-banner.png);
+    @include background__property;
+}
+
+.inner-overlay {
+    background: rgba(232, 255, 232, 0.9);
+    padding: 160px 0px 115px;
+}
+
+.inner-content {
+    text-align: center;
+
+    h1 {
+        font-size: 45px;
+        margin-bottom: 5px;
+    }
+    
+    ul {
+        @include flex__center;
+
+        li {
+            a {
+                font-size: 18px;
+                font-weight: 500;
+                color: #555;
+                text-transform: capitalize;
+                @include cursor__transition;
+
+                &:hover {
+                    color: $brand__color;
+                }
+            }
+
+            i {
+                color: #555;
+                margin: 0px 15px;
+            }
+        }
+    }
+}
+

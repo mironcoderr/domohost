@@ -1,0 +1,43 @@
+
+
+/*=====================================
+            FOOTER BOTTOM STYLE
+======================================*/
+.footer-bottom {
+    background: #020314;
+    padding: 15px 0px;
+
+    ul {
+        @include flex__center;
+
+        li {
+            font-size: 15px;
+            color: #ccc;
+            text-transform: capitalize;
+            padding: 0px 25px;
+            letter-spacing: 0.5px;
+            position: relative;
+
+            &::after {
+                position: absolute;
+                content: "";
+                top: 50%;
+                right: 0px;
+                transform: translateY(-50%);
+                width: 1px;
+                height: 15px;
+                background: $wh__color;
+            }
+
+            &:last-child {
+                &::after {
+                    display: none;
+                }
+            }
+
+            a {
+                color: $brand__color;
+            }
+        }
+    }
+}

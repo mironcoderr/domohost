@@ -1,0 +1,35 @@
+
+
+
+/*=====================================
+            SLIDER DOTS STYLE
+======================================*/
+.slick-dots {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .slick-active {
+        button {
+            background: $primary__gradient;
+        }
+    }
+
+    li {
+        display: inline-block;
+        margin: 0 5px;
+
+        button {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: rgba(111,107,107,.6);
+            display: inline-block;
+            opacity: .5;
+            font-size: 0px;
+            border: none;
+            outline: none;
+        }
+    }
+}

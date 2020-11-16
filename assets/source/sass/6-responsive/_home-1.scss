@@ -1,0 +1,29 @@
+
+
+
+/*=====================================
+        0-1199PX HOME-1 RESPONSIVE
+======================================*/
+@media (max-width: 1199px) {
+
+    // BANNER PART
+    .banner-overlay {
+        padding: 100px 0px 100px;
+    }
+
+    .home-1-banner {
+        padding: 0px;
+        
+        h1 {
+            width: 100%;
+        }
+
+        p {
+            width: 100%;
+        }
+    }
+
+    .banner-video {
+        margin-top: 30px;
+    }
+}

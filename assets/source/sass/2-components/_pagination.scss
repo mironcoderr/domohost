@@ -1,0 +1,46 @@
+
+
+
+/*=====================================
+            PAGINATION STYLE
+======================================*/
+.pagination {
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+
+    .active {
+        a {
+            background: $primary__gradient;
+        }
+    }
+}
+
+.page-item {
+    margin: 0px 8px;
+
+    &:first-child,
+    &:last-child {
+        .page-link {
+            border-radius: 50%;
+        }
+    }
+}
+
+.page-link {
+    padding: 0px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 50%;
+    color: $body__color;
+    font-size: 16px;
+    background-color: #e9ecef;
+
+    &:hover {
+        color: $wh__color;
+        background: $primary__gradient;
+    }
+}

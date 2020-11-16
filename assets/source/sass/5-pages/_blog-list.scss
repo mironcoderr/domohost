@@ -1,0 +1,225 @@
+
+
+/*=====================================
+            BLOG LIST STYLE
+======================================*/
+#blog-list-part {
+    padding: 100px 0px;
+    background: #f9f9f9;
+}
+
+/*=====================================
+           BLOG LIST FORM STYLE
+======================================*/
+.blog-list-form {
+    display: block;
+
+    i {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 14px;
+    }
+
+    .search-input {
+        padding: 6px;
+    }
+
+    input {
+        width: 100%;
+        height: 45px;
+        border-radius: 50px 0px 0px 50px;
+    }
+
+    button {
+        border: none;
+        background: none;
+    }
+}
+
+/*=====================================
+            POST LIST STYLE
+======================================*/
+.post-list {
+    h3 {
+        position: relative;
+        display: inline-block;
+
+        &::before {
+            position: absolute;
+            content: "";
+            top: 50%;
+            right: -50px;
+            transform: translateY(-50%);
+            width: 30px;
+            height: 2px;
+            background: $primary__gradient;
+        }
+    }
+
+    ul {
+        li {
+            @include flex__center;
+            justify-content: flex-start;
+            padding: 28px 0px;
+            border-bottom: 1px solid $border__color;
+
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+    }
+}
+
+/*=====================================
+            POPULAR LIST STYLE
+======================================*/
+.popular-list,
+.cate-list {
+    ul {
+        li {
+            &:hover {
+                h5 {
+                    a {
+                        color: $brand__color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.post-img {
+    img {
+        width: 80px;
+        height: auto;
+        border-radius: 5px;
+        margin-right: 25px;
+    }
+}
+
+.post-content {
+    h5 {
+        text-transform: inherit;
+        line-height: 26px;
+        margin-bottom: 4px;
+
+        a {
+            color: $heading__color;
+            @include cursor__transition;
+        }
+    }
+
+    p {
+        font-size: 14px;
+
+        i {
+            margin-right: 5px;
+        }
+    }
+}
+
+/*=====================================
+         POPULAR CATEGORY STYLE
+======================================*/
+.cate-list {
+    h3 {
+        margin-bottom: 6px;
+    }
+
+    ul {
+        li {
+            padding: 18px 0px;
+            justify-content: space-between;
+
+            &:hover {
+                p {
+                    background: $secondary__gradient;
+                }
+            }
+
+            h5 {
+                font-size: 16px;
+                text-transform: inherit;
+
+                a {
+                    color: $heading__color;
+                    @include cursor__transition;
+                }
+            }
+
+            p {
+                font-size: 13px;
+                font-weight: 500;
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                border-radius: 50%;
+                color: $wh__color;
+                background: $primary__gradient;
+                @include cursor__transition;
+            }
+        }
+    }
+}
+
+/*=====================================
+            POPULAR TAG STYLE
+======================================*/
+.tag-list {
+    h3 {
+        margin-bottom: 30px;
+    }
+
+    ul {
+        li {
+            padding: 0px;
+            border: none;
+            display: inline-block;
+            margin: 0px 8px 12px 0px;
+
+            a {
+                color: $heading__color;
+                font-size: 14px;
+                padding: 3px 15px;
+                border-radius: 30px;
+                text-transform: capitalize;
+                border: 1px solid #ddd;
+                @include cursor__transition;
+
+                &:hover {
+                    color: $wh__color;
+                    background: $heading__color;
+                }
+            }
+        }
+    }
+}
+
+/*=====================================
+            FOLLOW LIST STYLE
+======================================*/
+.follow-list {
+    h3 {
+        margin-bottom: 25px;
+    }
+
+    ul {
+        li {
+            padding: 0px;
+            border: none;
+            display: inline-block;
+        }
+    }
+}
+
+/*=====================================
+            BANNER ADD STYLE
+======================================*/
+.banner-add {
+    img {
+        width: 100%;
+        border-radius: 10px;
+    }
+}

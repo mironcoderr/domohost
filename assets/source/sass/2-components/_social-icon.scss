@@ -1,0 +1,35 @@
+
+
+
+/*=====================================
+            SOCIAL ICON STYLE
+======================================*/
+.social-icon {
+    li {
+        display: inline-block;
+        margin-right: 10px;
+
+        &:last-child {
+            margin-right: 0px;
+        }
+
+        a {
+            i {
+                width: 45px;
+                height: 45px;
+                font-size: 16px;
+                line-height: 45px;
+                text-align: center;
+                border-radius: 50%;
+                color: $wh__color;
+                background: $primary__gradient;
+                box-shadow: $primary__box__shadow;
+                text-shadow: $primary__text__shadow;
+
+                &:hover {
+                    background: $secondary__gradient;
+                }
+            }
+        }
+    }
+}

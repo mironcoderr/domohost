@@ -1,0 +1,16 @@
+
+
+
+/*=====================================
+        0-767PX HEADER RESPONSIVE
+======================================*/
+@media (max-width: 767px) {
+    // HEADER PART
+    .header-content {
+        display: none;
+    }
+
+    .header-widget {
+        @include flex__center;
+    }
+}
